@@ -4,6 +4,13 @@
 
 * https://time.geekbang.org/column/article/18119
 
+## 收获
+
+1. Docker 运行的程序，仅仅是一个当前主机中一个特殊的进程。这个进程会通过 NameSpace 进行命名隔离（包括进程、网络），Cgroups 进行资源限制，Volume 进行存储共享；
+2. DockerFile 是按照一定的规则，将所有需要运行的数据打包在一个 image 里，使 image 可以直接运行；
+3. Docker 最强大的部分，在于它的打包、编排部署；
+
+
 ## QA
 
 ### 在 Mac 上构建镜像异常
